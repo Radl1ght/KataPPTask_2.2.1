@@ -11,9 +11,6 @@ public class Car implements Serializable {
    @GeneratedValue(strategy = GenerationType.IDENTITY)
    @Column(name = "id")
    private long id;
-//   @OneToOne()
-//   @JoinColumn(name = "id", referencedColumnName = "id")
-//   private User user_id;
 
    @Column(name = "model")
    private String model;
